@@ -7,7 +7,7 @@ import { MultiBarchartComponent } from './multibarchart.component';
 
 describe('MultiBarchartComponent', () => {
   let component: MultiBarchartComponent;
-  let fixture: ComponentFixture<BarchartComponent>;
+  let fixture: ComponentFixture<MultiBarchartComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
