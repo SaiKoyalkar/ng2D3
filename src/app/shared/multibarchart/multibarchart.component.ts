@@ -8,7 +8,7 @@ import * as d3 from 'd3';
   encapsulation: ViewEncapsulation.None
 })
 export class MultiBarchartComponent implements OnInit, OnChanges {
-  @ViewChild('chart') private chartContainer: ElementRef;
+  @ViewChild('multibarchart') private chartContainer: ElementRef;
   @Input() private data: Array<any>;
   private margin: any = { top: 20, bottom: 20, left: 20, right: 20};
   private chart: any;
